@@ -1,0 +1,11 @@
+global:
+  scrape_interval: 15s
+
+  external_labels:
+    monitor: 'celeron-nuc'
+
+scrape_configs:
+  - job_name: 'prometheus'
+
+    static_configs:
+      - targets: ['host.docker.internal:9100']
