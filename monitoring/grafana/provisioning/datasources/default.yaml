@@ -4,5 +4,6 @@
     type: prometheus
     url: http://prometheus:9090
     access: proxy
+    uid: prometheus
     editable: false
     isDefault: true
